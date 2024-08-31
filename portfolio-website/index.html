@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Triana Devia</title>
+
+  <!-- bootstrap css cdn link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+  <!-- custom css file -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- bootstrap icon cdn link  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+
+  <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- jquery cdn link  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <!-- navbar starts -->
+  <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d">Portfolio</a>
+      <button class="nav-menu d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="bi bi-menu-button-fill"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Valores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Estudios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonial">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+        <!-- here download attribute is used for adding download functionality to button  -->
+        <a href="https://www.linkedin.com/in/triana-devia/" target="_blank"
+          style="text-decoration: none;color: #fff;">LinkedIn</a>
+      </button>
+    </div>
+    </div>
+  </nav>
+  <!-- navbar ends here -->
+
+  <!-- home section starts  -->
+  <section class="home pt-5 pb-5" id="home">
+    <div class="row justify-content-evenly align-middle">
+      <!-- here data-aos is used for adding aos animation  -->
+      <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+        <h2 style="color: #3f396d">
+          Hola! Soy <br /><span class="c-orange">Triana Devia</span>
+        </h2>
+        <h3>Project Manager IT y Desarrolladora Web</h3>
+        <p class="text-muted">
+          Lidero proyectos con pasión y excelencia, combinando habilidades técnicas y de gestión para entregar
+          soluciones innovadoras y de alta calidad. Mi compromiso con la transparencia, la colaboración y la mejora
+          continua asegura el éxito de cada proyecto. ¡Vamos a transformar ideas en realidades juntos!
+        </p>
+        <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+          <!-- here download attribute is used for adding download functionality to button  -->
+          <a href="https://api.whatsapp.com/send?phone=5492615173107&text=Hola%20!%20Quiero%20contactar%20contigo." target="_blank"
+            style="text-decoration: none;color: #fff;">Contáctame</a>
+        </button>
+      </div>
+      <div class="col-10 col-md-4 d-none d-md-block">
+        <img src="images/banner-01.png" class="img-fluid" alt="" />
+      </div>
+    </div>
+  </section>
+  <!-- home section ends here -->
+
+  <!-- expertise section starts -->
+  <section class="expertise mt-5" id="service">
+    <div class="heading text-center">
+      <small>Mi Experiencia</small>
+      <h3>
+        Aprendiendo y creciendo cada día.
+      </h3>
+    </div>
+    <div class="row justify-content-evenly mt-5">
+      <div class="col-10 col-md-4" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/service-icon1.png" class="w-25 img-fluid img" alt="" />
+          </div>
+          <div class="content mt-3">
+            <h4>Gestora de proyectos y desarrolladora web</h4>
+            <p class="naranja">
+              Agencia de Soluciones Digitales
+            </p>
+            <p class="violeta">
+              Abril 2024 - Presente
+            </p>
+            <p class="text-muted">
+              Lidero proyectos de desarrollo web y aplicaciones, desde la definición de requisitos hasta el testeo y entrega del producto.<br>
+
+Utilizo metodologías ágiles para gestionar proyectos, asegurando entregas iterativas e incrementales.<br>
+
+Asumo múltiples roles, incluyendo entrevistas con clientes, diseño, desarrollo y pruebas de software.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-10" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/service-icon2.png" class="w-25 img-fluid img" alt="" />
+          </div>
+          <div class="content mt-3">
+            <h4>Scrum Master y Product Owner</h4>
+            <p class="naranja">Proyecto Universitario de Ecommerce y Aplicación Móvil</p>
+            <p class="violeta">2022 - 2023</p>
+            <p class="text-muted">
+              Creé historias de usuarios y tareas, asignándolas y gestionando su progreso.<br>
+
+              Organicé y dirigí todas las ceremonias Scrum.<br>
+
+              Mantuve una documentación exhaustiva del proyecto, incluyendo el backlog del producto, las decisiones clave y los cambios en los requisitos. <br>
+
+Coordiné el equipo de desarrollo para asegurar la entrega de un producto de alta calidad.
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-10" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/service-icon3.png" class="w-25 img-fluid img" alt="" />
+          </div>
+          <div class="content mt-3">
+            <h4>Técnica de Anestesia</h4>
+            <p class="naranja">Hospital Humberto Notti</p>
+            <p class="violeta">2010 - Presente</p>
+            <p class="text-muted">
+              Lideré el proyecto de creación de la ley de ejercicio profesional y ley de carrera para los técnicos asistenciales en salud de la provincia de Mendoza. <br>
+
+Gestioné reuniones con representantes políticos y recopilé información de colegas de otras provincias. <br>
+
+Logré comunicar efectivamente la importancia del proyecto, que actualmente está en evaluación en la cámara de senadores.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- expertise section ends here -->
+
+  <!-- skill section starts -->
+  <section class="skill mt-5 py-5" id="about">
+    <div class="row justify-content-evenly">
+      <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+        <div class="row justify-content-evenly">
+          <div class="col-10 col-md-6">
+            <div class="progress-card ms-3 ms-md-0">
+              <span class="naranja">Integridad y Transparencia</span>
+              <p>Valoro la honestidad y la transparencia, manteniendo siempre una comunicación abierta y sincera.</p>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 mt-4 mt-md-0">
+            <div class="progress-card ms-3 ms-md-0">
+              <span class="violeta">Empatía y Colaboración</span>
+              <p>Valoro el trabajo en equipo y la colaboración, escuchando y comprendiendo para lograr resultados óptimos.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4">
+          <div class="col-10 col-md-6">
+            <div class="progress-card ms-3 ms-md-0">
+              <span class="verde">Innovación y Adaptabilidad</span>
+              <p>Me adapto y busco soluciones innovadoras, comprometida con la mejora continua y superando desafíos.</p>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 mt-4 mt-md-0">
+            <div class="progress-card ms-3  ms-md-0">
+              <span class="oscuro">Pasión por el aprendizaje</span>
+              <p>Apasionada por el aprendizaje continuo, siempre busco crecer personal y profesionalmente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+        <div class="heading mt-5 mt-md-3">
+          <small>Mis Valores</small>
+          <h3>Siempre dando lo mejor de mí</h3>
+          <p class="text-muted">
+            En cada proyecto, me guían la honestidad, la transparencia y el compromiso con la excelencia. Creo en la importancia de la colaboración y el trabajo en equipo, escuchando y valorando cada perspectiva para alcanzar los mejores resultados. Mi pasión por el aprendizaje continuo me impulsa a mejorar y encontrar soluciones innovadoras, asegurando siempre la satisfacción de mis clientes y colegas.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            <!-- here download attribute is used for adding download functionality to button  -->
+            <a href="https://drive.google.com/file/d/15Td0BQkJJ4cymDVKT7C2mtsHC4lQ57nI/view?usp=sharing" download="SampleCV" target="_blank"
+              style="text-decoration: none;color: #fff;">Descarga mi CV</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- skill section end here -->
+
+  <!-- portfolio section starts here -->
+  <section class="portfolio" id="portfolio">
+    <div class="heading text-center pt-5">
+      <small>Aprendiendo y creciendo cada día.</small>
+      <h3>Mis estudios</h3>
+    </div>
+
+    <div id="myBtnContainer" class="text-center mt-4">
+      <!-- here we will create custom attribute using data- for filtering -->
+      
+    <div class="portfolio-body">
+      <div class="row justify-content-evenly px-4">
+        <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <p></p>
+            <div class="card-body text-center">
+              <h4 class="card-title">Gestión de Proyectos de Google</h4>
+              <p class="naranja">Actualmente</p>
+              <span class="badge bg-secondary badge-pill">Google</span>
+              <span class="badge bg-secondary badge-pill">Coursera</span>
+              <span class="badge bg-secondary badge-pill">Ágile</span>
+              <span class="badge bg-secondary badge-pill">Waterfall</span>
+              <span class="badge bg-secondary badge-pill">Kamban</span>
+              <span class="badge bg-secondary badge-pill">FODA</span>
+              <span class="badge bg-secondary badge-pill">BMC</span>
+              <span class="badge bg-secondary badge-pill">OKRS</span>
+              <span class="badge bg-secondary badge-pill">SMART</span>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <div class="card-body text-center">
+              <h4 class="card-title">Tec. Sup. en Desarrollo Web y Aplcaciones Digitales</h4>
+              <p class="naranja">2022 - 2024</p>
+              <span class="badge bg-secondary badge-pill">ISPC</span>
+              <span class="badge bg-secondary badge-pill">Python</span>
+              <span class="badge bg-secondary badge-pill mb-2">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">JS</span>
+              <span class="badge bg-secondary badge-pill">Git&Github</span>
+              <span class="badge bg-secondary badge-pill"></span>
+              <span class="badge bg-secondary badge-pill">Django</span>
+              <span class="badge bg-secondary badge-pill">Angular</span>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <div class="card-body text-center">
+              <h4 class="card-title">Múltiples cursos de Metodologías Ágiles y Gestión de Proyectos</h4>
+              <p class="naranja">2024</p>
+              <span class="badge bg-secondary badge-pill">Scrum</span>
+              <span class="badge bg-secondary badge-pill">Gestión de cambios</span>
+              <span class="badge bg-secondary badge-pill mb-2">Gestión de equipos</span><br />
+              <span class="badge bg-secondary badge-pill">Liderazgo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- portfolio section ends here -->
+
+  <!-- testimonial section starts  -->
+  <section class="testimonial mt-5 pt-5" id="testimonial">
+    <div class="row justify-content-evenly">
+      <div class="col-md-4 col-10" data-aos="slide-right">
+        <img src="images/tastimonials-img.png" class="img-fluid" alt="" />
+      </div>
+      <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
+        <div class="heading">
+          <small>Testimonios</small>
+          <h3>Mis colegas confían en mí. ¡Descubre por qué!</h3>
+          <!-- here we will use carousel element from bootstrap -->
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row justify-content-evenly">
+                  <div class="col-2 text-center">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <div class="col-10">
+                    <p class="text-muted">
+                      Triana es una excelente Scrum! Sabe guiar perfectamente a un equipo de trabajo para lograr los objetivos propuestos. Es responsable y la mejor como líder!
+                    </p>
+                    <h4>Jésica Ortiz</h4>
+                    <small class="fs-6 text-muted">Desarrolladora Web</small>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-evenly">
+                  <div class="col-2 text-center">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <div class="col-10">
+                    <p class="text-muted">
+                      Durante 10 años de experiencia compartimos equipo que requiere manejo de crisis en industria quirúrgica. Además del desempeño técnico sólido, Triana destaca en desempeño de factores humanos y habilidades no técnicas. Compartir equipo con ella es sinónimo de tranquilidad, eficiencia y solidez.
+                    </p>
+                    <h4>Arturo Salassa</h4>
+                    <small class="fs-6 text-muted">Médico Anestesiólogo</small>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-evenly">
+                  <div class="col-2 text-center">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <div class="col-10">
+                    <p class="text-muted">
+                      Gran compañera, excelentes habilidades para liderar y motivar a un equipo durante todo el ciclo de vida del software.
+                    </p>
+                    <h4>Karen Belen Pigni</h4>
+                    <small class="fs-6 text-muted">Technical Support Analyst</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="nextprev-btn rounded-pill prev-btn" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <i class="bi bi-arrow-left-circle-fill prev"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="nextprev-btn rounded-pill next-btn" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <i class="bi bi-arrow-right-circle-fill next"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonial ends here -->
+
+  <!-- contact section starts -->
+  <section class="contact py-5" id="contact">
+    <div class="heading text-center">
+      <small>Contáctame</small>
+      <h3>¡Hablemos y hagamos cosas increíbles juntos!</h3>
+    </div>
+    <div class="row justify-content-evenly mt-5">
+      <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-geo-alt-fill"></i>
+          </div>
+          <div class="col-11">
+            <p>Mendoza, Argentina</p>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-telephone-fill"></i>
+          </div>
+          <div class="col-11">
+            <p>+54 2615173107</p>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-send-fill"></i>
+          </div>
+          <div class="col-11">
+            <p>trianadevia@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+        <div class="contact-form">
+          <div class="mb-3">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" />
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" />
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Teléfono" />
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensage" rows="5"></textarea>
+          </div>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Enviar
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact section ends here -->
+
+  <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+  <button type="button" class="btn btn-floating btn-lg rounded-pill" id="btn-back-to-top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- footer section starts  -->
+  <footer class="text-center text-muted py-4">
+    <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+    <div class="link-group mt-5" data-aos="fade-up">
+      <a href="#home">Inicio</a>
+      <div class="vr"></div>
+      <a href="#about">Experiencia</a>
+      <div class="vr"></div>
+      <a href="#service">Valores</a>
+      <div class="vr"></div>
+      <a href="#portfolio">Estudios</a>
+      <div class="vr"></div>
+      <a href="#blog">Testimonios</a>
+      <div class="vr"></div>
+      <a href="#contact">Contacto</a>
+    </div>
+    <div class="social-links mt-5" data-aos="fade-up">
+      <button href="https://api.whatsapp.com/send?phone=5492615173107&text=Hola%20!%20Quiero%20contactar%20contigo." class="rounded-pill whatsapp">
+        <i class="bi bi-whatsapp"></i>
+      </button>
+    </div>
+    <hr class="text-muted my-4" />
+
+    <p>Copyright 2024 Portfolio IT Project Manager Triana Devia.</p>
+  </footer>
+  <!-- footer section ends here -->
+
+  <!-- bootstrap javascript cdn link  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <!-- AOS library javascript link  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    // initializing AOS library
+    AOS.init({
+      duration: 1000,
+      offset: 50,
+    });
+  </script>
+  <!-- custom js file linking -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
